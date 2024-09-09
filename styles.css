@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #18189c;
+    color: #ee0505;
+    margin: 0;
+    padding: 15;
+    line-height: 5;
+}
+
+/* Typography */
+h1, h2, h3 {
+    color: #c92183;
+    margin-bottom: 0.75em;
+    font-weight: 600;
+}
+
+p {
+    margin-bottom: 1.25em;
+    line-height: 1.8;
+}
+
+/* Links */
+a {
+    color: #18557e;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #133b55;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
